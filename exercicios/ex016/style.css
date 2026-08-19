@@ -1,20 +1,34 @@
 @charset 'UTF-8';
 
-body {
-    background-color: lightgoldenrodyellow;
+* {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    
 }
 
-h1 {
-    color: darkblue;
-    background-color: lightblue;
+body {
+    background-image: linear-gradient(to right, #566366, #9ca4bb);
 }
 
-h2 {
-    color: darkred;
+main {
+    background-color: #ffffff;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #fffaa4a3;
+
 }
 
 p {
     text-align: justify;
+}
+
+h1 {
+    color: #5f52ac;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(61, 61, 61, 0.771);
+}
+
+h2 {
+ color: #8c858f;
 }
