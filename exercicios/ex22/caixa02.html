@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(63, 63, 63);
+        }
+
+        nav {
+            background-color: lightgoldenrodyellow;
+            padding: 1px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, politica e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+
+            </article>
+
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quos aut velit a placeat omnis autem ea ullam corporis nobis. Est dolor quas sunt. Mollitia eveniet dolorum nesciunt molestias tenetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut dolore ipsam neque laudantium quaerat nisi. Voluptatum magnam, error accusamus quaerat dolores doloremque perferendis obcaecati saepe at perspiciatis aspernatur vero quibusdam.</p>
+                <aside>
+                    <p>Artigo escrito por Victor</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+</body>
+</html>
